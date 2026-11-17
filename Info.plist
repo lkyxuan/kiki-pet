@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CFBundleName</key><string>Kiki 桌宠</string>
+  <key>CFBundleDisplayName</key><string>Kiki 桌宠</string>
+  <key>CFBundleIdentifier</key><string>com.lkyxuan.kiki.pet</string>
+  <key>CFBundleExecutable</key><string>KikiPet</string>
+  <key>CFBundlePackageType</key><string>APPL</string>
+  <key>CFBundleShortVersionString</key><string>0.1.0</string>
+  <key>CFBundleVersion</key><string>1</string>
+  <key>LSMinimumSystemVersion</key><string>13.5</string>
+  <key>NSHighResolutionCapable</key><true/>
+  <!-- 不进 Dock、不进 Cmd-Tab -->
+  <key>LSUIElement</key><true/>
+  <!-- 和 Kiki.app 一样：远程连的是用户自己填的 Tailscale 地址（http://100.x:4567） -->
+  <key>NSAppTransportSecurity</key>
+  <dict><key>NSAllowsArbitraryLoads</key><true/></dict>
+</dict>
+</plist>
