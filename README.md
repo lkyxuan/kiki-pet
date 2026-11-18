@@ -1,8 +1,10 @@
 # Kiki 桌宠
 
+> Kiki 0.5.73 起已经自带桌宠，在 Kiki 菜单「显示 → 桌宠」打勾就行。这个独立版给还没升级的人用。
+
 屏幕角落里的 Kiki：半身趴在右下角，衣服按时段换，有“要你的”时肩上出橙色数字、冒气泡，点她打开 Kiki 里那张卡。
 
-这个库只有 Mac 外壳（`main.swift`）：透明、无边框、永远置顶、所有桌面都在的小窗，里面一个透明 WKWebView 加载 Kiki 后台的 `/pet.html`。画面、状态、“要你的”都在 Kiki 那边（Kiki 后台提供 `/pet.html`、`GET /api/pet`、`/api/events` 的 `pet` 事件），需要 Kiki 0.5.22 起。
+这个库只有 Mac 外壳（`main.swift`）：透明、无边框、永远置顶、所有桌面都在的小窗，里面一个透明 WKWebView 加载 Kiki 后台的 `/pet.html`。画面、状态、“要你的”都在 Kiki 那边（Kiki 后台提供 `/pet.html`、`GET /api/pet`、`/api/events` 的 `pet` 事件），需要 Kiki 0.5.33 起（独立版用的 `/pet.html` 和 `/api/pet` 是 0.5.33 开始有的）。
 
 ## 打包
 
